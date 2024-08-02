@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="" href="app.js">
     <title>JS Game</title>
 </head>
 
@@ -24,17 +25,15 @@
                 <input id="input001" type="number" min="1" max="10" class="container__input">
                 <div class="chute container__botones">
                     <button onclick="validarIntentoUsuario();" class="container__boton">Intentar</button>
-                    <button onclick="nuevoNumeroSecreto();" class="container__boton" id="reiniciar">Nuevo juego</button>
+                    <button onclick="iniciarJuego ();" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
+                    <button onclick="reiniciarNuevoLimite ();" class="container__boton" id="reiniciartotal" style="display:none;">Reiniciar</button>
                 </div>
             </div>
             <img src="./img/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
         </div>
     </div>
 
-
-
-
-    <script src="app.js" defer></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
