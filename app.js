@@ -1,6 +1,6 @@
 
 let intentos = 1;
-let limiteJuego = 1;
+let limiteJuego = 10;
 let numeroSecreto = 0;
 let numeroUsuario;
 let numerosGenerados = [];
